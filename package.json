@@ -1,8 +1,9 @@
 {
-  "name": "serverless-stack-output",
+  "name": "@anttiviljami/serverless-stack-output",
+  "version": "0.3.0",
   "description": "Serverless plugin to process AWS CloudFormation Stack Output",
   "license": "MIT",
-  "author": "Sebastian Müller <mail@sbstjn.com>",
+  "author": "Viljami Kuosmanen <viljami@avoinsorsa.fi>",
   "main": "dist",
   "scripts": {
     "clean": "rimraf dist",
