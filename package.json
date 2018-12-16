@@ -1,6 +1,6 @@
 {
   "name": "@anttiviljami/serverless-stack-output",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Serverless plugin to process AWS CloudFormation Stack Output",
   "license": "MIT",
   "author": "Viljami Kuosmanen <viljami@avoinsorsa.fi>",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sbstjn/serverless-stack-output.git"
+    "url": "git+https://github.com/anttiviljami/serverless-stack-output.git"
   },
   "bugs": {
-    "url": "https://github.com/sbstjn/serverless-stack-output/issues"
+    "url": "https://github.com/anttiviljami/serverless-stack-output/issues"
   },
-  "homepage": "https://github.com/sbstjn/serverless-stack-output#readme",
+  "homepage": "https://github.com/anttiviljami/serverless-stack-output#readme",
   "keywords": [
     "serverless",
     "plugin",
