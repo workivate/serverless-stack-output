@@ -1,7 +1,6 @@
-import using from 'jasmine-data-provider'
 import util from 'util'
-
 import File from '../src/file'
+const using = require("jasmine-data-provider");
 
 describe('File', () => {
   describe('Constructor', () => {

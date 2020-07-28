@@ -1,5 +1,5 @@
-import * as assert from 'assert'
-import * as util from 'util'
+import assert from 'assert'
+import util from 'util'
 
 import StackOutputFile from './file'
 
@@ -34,11 +34,11 @@ export default class StackOutputPlugin {
     return !!this.output && !!this.output[key]
   }
 
-  private hasHandler () {
+  public hasHandler () {
     return this.hasConfig('handler')
   }
 
-  private hasFile () {
+  public hasFile () {
     return this.hasConfig('file')
   }
 
