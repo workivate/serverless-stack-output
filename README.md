@@ -162,3 +162,28 @@ ServerlessDeploymentBucketName: sls-stack-output-example-serverlessdeploymentbuc
   "ServerlessDeploymentBucketName": "sls-stack-output-example-serverlessdeploymentbuck-BucketID"
 }
 ```
+
+#### Development:
+
+Install all requirements:
+```
+$ npm install
+```
+
+or 
+
+```
+$ yarn
+```
+
+If you want to run the tests:
+```
+$ npm run test
+```
+
+If you want to build `dist` bundle:
+```
+$ npm run build
+```
+
+it should transpile all TypeScript files into normal js files and saved it into `/dist` directory.
