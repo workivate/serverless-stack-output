@@ -187,3 +187,18 @@ $ npm run build
 ```
 
 it should transpile all TypeScript files into normal js files and saved it into `/dist` directory.
+
+
+#### Publishing
+
+If you want to publish the package you have to transpile typescript code (the steps are described in the section above)
+
+You have to also remember about changing the package version
+```
+$ npm version <new_version>
+```
+
+and then you will be able to publish the package:
+```
+$ npm publish --access public
+```

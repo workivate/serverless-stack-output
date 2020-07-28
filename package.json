@@ -1,6 +1,6 @@
 {
   "name": "@lifeworks/serverless-stack-output",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Serverless plugin to process AWS CloudFormation Stack Output",
   "license": "MIT",
   "author": "Viljami Kuosmanen <viljami@avoinsorsa.fi>",
