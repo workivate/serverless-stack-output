@@ -1,5 +1,5 @@
 {
-  "name": "@mprzytulski/serverless-stack-output",
+  "name": "@lifeworks/serverless-stack-output",
   "version": "0.3.3",
   "description": "Serverless plugin to process AWS CloudFormation Stack Output",
   "license": "MIT",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mprzytulski/serverless-stack-output.git"
+    "url": "git+https://github.com/workivate/serverless-stack-output.git"
   },
   "bugs": {
-    "url": "https://github.com/mprzytulski/serverless-stack-output/issues"
+    "url": "https://github.com/workivate/serverless-stack-output/issues"
   },
-  "homepage": "https://github.com/mprzytulski/serverless-stack-output#readme",
+  "homepage": "https://github.com/workivate/serverless-stack-output#readme",
   "keywords": [
     "serverless",
     "plugin",
