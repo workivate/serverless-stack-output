@@ -12,7 +12,8 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "tslint {src,test}/**/*.ts",
     "prebuild": "yarn clean",
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "prepublish": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
