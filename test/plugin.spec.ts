@@ -18,12 +18,14 @@ describe('Plugin', () => {
   })
 
   afterEach(() => {
-    providerMock.restore()
+    if (providerMock !== null) {
+      providerMock.restore()
+    }
   })
 
   describe('Configuration', () => {
     it('hasHandler', () => {
-      const config = {
+      const config: any = {
         cli: { log: () => null },
         config: {
           servicePath: ''
@@ -42,8 +44,8 @@ describe('Plugin', () => {
         }
       }
 
-      const test = new Plugin(config, { serverless: true }, { options: true })
-
+      const options: any = { serverless: true }
+      const test = new Plugin(config, options)
       expect(test.hasHandler()).toBe(true)
       expect(test.hasFile()).toBe(false)
 
@@ -53,7 +55,7 @@ describe('Plugin', () => {
 
   describe('Configuration', () => {
     it('hasFile', () => {
-      const config = {
+      const config: any = {
         cli: { log: () => null },
         config: {
           servicePath: ''
@@ -72,7 +74,9 @@ describe('Plugin', () => {
         }
       }
 
-      const test = new Plugin(config)
+      const options: any = { serverless: true }
+
+      const test = new Plugin(config, options)
 
       expect(test.hasHandler()).toBe(false)
       expect(test.hasFile()).toBe(true)

@@ -10,7 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "strict": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
@@ -19,7 +20,8 @@
       "es2015",
       "es2016"
     ],
-    "declaration": false
+    "declaration": false,
+    "esModuleInterop": true,
   },
   "include": [
     "src/**/*",
